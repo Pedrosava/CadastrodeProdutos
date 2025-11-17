@@ -1,4 +1,4 @@
-import Produto from "";
+import Produto from "../models/produtoModelo.js";
 
 // Lista dos produtos
 export const listarProdutos = async (req, res) => {
