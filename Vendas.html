@@ -3,45 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Pagina de Vendas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-    <H1>
-    Cadastro de Produtos
-    </H1>
+    <H1>Pagina de Vendas</H1>
     <nav>
         <a href="index.html">Home</a>
-        <a href="Vendas.html">Vendas</a>
+        <a href="cadastro.html">Cadastro de Produtos</a>
     </nav>
+
     <form id="formProdutos">
         <input type="text" placeholder="Nome do Produto">
-        <input type="number" placeholder="Preço do Produto" step="0.01">
+        <input type="month" placeholder="Data da Venda">
         <input type="number" placeholder="Quantidade">
-        <button type="submit">Cadastrar Produto</button>
+        <button type="submit">Procurar produto</button>
     </form>
 </header>
-    <main>
-        <h2>
-        Produto cadastrado com sucesso!
-        </h2>
+   
+<main>
+    <h2>
+    Produto vendido com sucesso!
+    </h2>
 <section>
-
     <table>
         <thead>
             <tr>
                 <th>Nome do Produto</th>
-                <th>Preço</th>
+                <th>Data da Venda</th>
                 <th>Quantidade</th>
             </tr>
         </thead>
         <tbody id="listaProdutos">
-            <!-- Produtos cadastrados aparecerão aqui -->
+<!-- Produtos vendidos aparecerão aqui -->
         </tbody>
     </table>
-    </main>
 </section>
+</main>
 
 <footer>
     <p>
